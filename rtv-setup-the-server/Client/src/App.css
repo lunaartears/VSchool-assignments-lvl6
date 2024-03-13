@@ -1,0 +1,104 @@
+* {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+.signin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.auth-form {
+    display: flex;
+}
+.username {
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+.password {
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.auth-btn {
+    border-radius: 5px;
+    font-size: 20px;
+}
+.auth-text {
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.logout-btn {
+    border-radius: 5px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+.descript{
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+.post-btn {
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+.public {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.public-post {
+    margin-top: 50px;
+}
+.post-list {
+    margin-top: 50px;
+}
+.post {
+    margin-top: 40px;
+
+}
+.like-btn {
+    height: 30px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.dislike-btn {
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+}
+.comment-input {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.submit-comment-btn {
+    height: 39px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
